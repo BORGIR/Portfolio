@@ -1,0 +1,202 @@
+<!-- index.html (simple white background) -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Myrr Francois Tabag — Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top">Myrr Francois Tabag</a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#resume">Resume</a>
+          <a class="nav-cta" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="section">
+        <div class="container hero">
+          <div class="hero-text">
+            <p class="eyebrow">BSCS Student</p>
+            <h1>Hi, I’m <span class="accent">Myrr</span>.</h1>
+            <p class="lead">
+              I’m currently studying at University Of Northern Phillipines and learning HTML, CSS, and Java.
+            </p>
+
+            <div class="links">
+              <!-- ✅ Your GitHub link -->
+              <a class="btn" href="https://github.com/BORGIR" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+
+              <!-- ✅ Your TikTok link -->
+              <a class="btn" href="https://www.tiktok.com/@myrr.ft?lang=en" target="_blank" rel="noreferrer">
+                TikTok
+              </a>
+
+              <a class="btn btn-outline" href="mailto:myrrtabag1234@gmail.com">Email</a>
+            </div>
+
+            <ul class="quick-info">
+              <li><strong>City:</strong> Santo Domingo, Ilocos Sur</li>
+              <li><strong>Skills:</strong> Java, HTML, CSS, Figma (basic)</li>
+              <li><strong>Status:</strong> Open to opportunities</li>
+            </ul>
+          </div>
+
+          <figure class="card">
+            <!-- ✅ Your image:
+                 Keep myrr.jpg in the same folder as index.html -->
+            <img class="avatar" src="./myrr.jpg" alt="Portrait of Myrr Francois Tabag" />
+            <figcaption class="card-body">
+              <h2 class="card-title">Myrr Francois Tabag</h2>
+              <p class="muted">BSCS Student</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="about" class="section section-alt">
+        <div class="container">
+          <h2>About Me</h2>
+          <p class="muted">
+            I’m a BSCS student who enjoys learning programming and building simple, clean web pages.
+            I’m improving my fundamentals in HTML/CSS and Java, and practicing design with Figma.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <p class="muted">None At The Moment</p>
+
+          <div class="projects">
+            <article class="card project-card">
+              <div class="card-body">
+                <h3 class="card-title">None At The Moment</h3>
+                <p class="muted">More projects coming soon.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section section-alt">
+        <div class="container">
+          <h2>Resume</h2>
+
+          <div class="resume-grid">
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Education</h3>
+                <p><strong>University Of Northern Phillipines</strong></p>
+                <p class="muted">BSCS (Bachelor of Science in Computer Science) • 2024 – Present</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Work Experience</h3>
+                <p><strong>still looking</strong></p>
+                <p class="muted">Open to opportunities / internships.</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Skills</h3>
+                <ul class="skill-list">
+                  <li>Java</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Figma (basic)</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p class="muted">You can reach me here:</p>
+
+          <div class="contact-grid">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Contact Info</h3>
+                <ul class="contact-list">
+                  <li>
+                    <strong>Email:</strong>
+                    <a href="mailto:myrrtabag1234@gmail.com">myrrtabag1234@gmail.com</a>
+                  </li>
+
+                  <li>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/BORGIR" target="_blank" rel="noreferrer">
+                      https://github.com/BORGIR
+                    </a>
+                  </li>
+
+                  <li>
+                    <strong>TikTok:</strong>
+                    <a href="https://www.tiktok.com/@myrr.ft?lang=en" target="_blank" rel="noreferrer">
+                      https://www.tiktok.com/@myrr.ft?lang=en
+                    </a>
+                  </li>
+
+                  <li><strong>Location:</strong> Santo Domingo, Ilocos Sur</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Message</h3>
+                <form class="form" action="#" method="post">
+                  <label>
+                    Name
+                    <input type="text" name="name" required />
+                  </label>
+
+                  <label>
+                    Email
+                    <input type="email" name="email" required />
+                  </label>
+
+                  <label>
+                    Message
+                    <textarea name="message" rows="5" required></textarea>
+                  </label>
+
+                  <button class="btn" type="submit">Send</button>
+                  <p class="muted small">
+                    (This form is layout-only unless connected to a form service.)
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted">© 2026 Myrr Francois Tabag</p>
+        <a class="muted" href="#top">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>
