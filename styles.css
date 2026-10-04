@@ -1,4 +1,3 @@
-/* styles.css (simple white theme) */
 :root {
   --bg: #ffffff;
   --text: #111827;
@@ -56,7 +55,7 @@ a:hover {
   font-size: 0.9rem;
 }
 
-/* Header */
+
 .site-header {
   position: sticky;
   top: 0;
@@ -101,7 +100,7 @@ a:hover {
   border: 1px solid #bfdbfe;
 }
 
-/* Hero */
+
 .hero {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
@@ -144,7 +143,7 @@ h1 {
   padding-left: 1.1rem;
 }
 
-/* Cards */
+
 .card {
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -169,7 +168,7 @@ h1 {
   border-bottom: 1px solid var(--border);
 }
 
-/* Buttons */
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -191,7 +190,7 @@ h1 {
   color: var(--accent);
 }
 
-/* Projects */
+
 .projects {
   margin-top: 14px;
   display: grid;
@@ -201,7 +200,7 @@ h1 {
   width: min(420px, 100%);
 }
 
-/* Resume */
+
 .resume-grid {
   margin-top: 14px;
   display: grid;
@@ -214,7 +213,7 @@ h1 {
   padding-left: 1.1rem;
 }
 
-/* Contact */
+
 .contact-grid {
   margin-top: 14px;
   display: grid;
@@ -253,7 +252,7 @@ textarea:focus {
   border-color: #93c5fd;
 }
 
-/* Footer */
+
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 20px 0;
@@ -268,7 +267,7 @@ textarea:focus {
   flex-wrap: wrap;
 }
 
-/* Responsive */
+
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
